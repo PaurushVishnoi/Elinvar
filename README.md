@@ -5,6 +5,8 @@ extract the following information about each service:
 2. Number of requests made to the service
 3. Maximum time of request execution
 
+<br></br>
+
 ## Technologies Used ##
 
 To create the scripts for development of the data following technologies have been used: -
@@ -15,9 +17,7 @@ Python - Version (3.7)
 
 #### Database for storing the values #### 
 DB Browser for SQLite
-
-#### Webdriver version #### 
-Chrome - Version ( ChromeDriver 77.0.3865.40 )
+<br></br>
 
 
 ## Prerequisites ##
