@@ -35,8 +35,7 @@ To store the values of global variables [parameters.py](parameters.py) have been
 [tables.py](tables.py) is used for the creation of the tables and vies in the [elinvarDatabase.db](elinvarDatabase.db) which is database file.
 
 ## Execution ##
-1. Clone the repository https://github.com/PaurushVishnoi/AOE.git or download the repo and extract it<br />
-2. Open the Project AOE in any of the IDE ( Intellij or Eclipse etc.)<br />
-3. Open [Testcase.java](src/AOE_Tasks/Testcase.java) and execute the file to execute the test case. <br />
+1. Clone the repository https://github.com/PaurushVishnoi/Elinvar.git or download the repo and extract it<br />
+2. Open [elinvar.py](elinvar.py) and execute the file to see the results. <br />
 4. Check the results on the terminal. The results can also be verified in the video [Recording_testcase_passed.avi](Recording_testcase_passed.avi) for better validation.
 
