@@ -17,10 +17,9 @@ regex_timeType = parameters.timeType()
 
 with open(file_path, "r") as file:
     for line in file:
-        print(line)
         
         for match in re.finditer(regex_service, line, re.S):
-            #print(match)
+           
             match_text = match.group()
             final_text = match_text.split(":")
             
@@ -30,9 +29,8 @@ with open(file_path, "r") as file:
 
             match_date = date.replace(",",".")
             
-        #match2 = re.search(regex_timeType, line, re.S)
-        #match_time = match2.group()        
-            print("\n" + "Service Name is " + final_text[0] + " and service id is " + final_text[1] + " and Date is " + match_date)
+      
+            #print("\n" + "Service Name is " + final_text[0] + " and service id is " + final_text[1] + " and Date is " + match_date)
 
             def_val = c.execute('Select count(*) from SERVICE_DATA where RequestId = ?', (final_text[1],))
         
