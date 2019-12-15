@@ -17,6 +17,7 @@ Python - Version (3.7)
 
 #### Database for storing the values #### 
 DB Browser for SQLite
+
 <br></br>
 
 
@@ -24,16 +25,14 @@ DB Browser for SQLite
 1. Python 3.7 should be installed on the local system<br />
 2. DB Browser SQLite should be installed on the local system
 
+<br></br>
 
 ## Explanation of Code files ##
-The [Testcase.java](src/AOE_Tasks/Testcase.java) file contains @Test notation which denotes the main test case to be executed. 
+The [elinvar.py](elinvar.py) file contains all the functions and implementation of the logic to extract the data from [test.log](test.log) file and store it in the database and finally print the results as well.
 
-Testcase.java is extending the class [BrowserHandle.java](src/AOE_Tasks/BrowserHandle.java) where actions before (Setting Up Chrome Driver) and after the execution of test (Closing of Chrome browser)  have been defined.
+To store the values of global variables [parameters.py](parameters.py) have been used
 
-[PageModel.java](src/AOE_Tasks/PageModel.java)
-Creation of WebDriver for Page Objects using PageFactory ( An inbuilt page object model for Selenium ). With the help of PageFactory , we use @FindBy annotation to find the page elements.
-
-[AOEWebsite.java](src/AOEWebsite.java) All the Page objects have been initialized and a method for each has been defined so that their instances can be used in other test cases or other classes as well.
+[tables.py](tables.py) is used for the creation of the tables and vies in the [elinvarDatabase.db](elinvarDatabase.db) which is database file.
 
 ## Execution ##
 1. Clone the repository https://github.com/PaurushVishnoi/AOE.git or download the repo and extract it<br />
